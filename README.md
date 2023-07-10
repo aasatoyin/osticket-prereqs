@@ -19,7 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 
-- Create an Azure Virtual Machine Windows 10, 4 vCPUs
+- Connect to an Azure Virtual Machine Windows 10, 4 vCPUs
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features
 - Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 - Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
