@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -20,7 +16,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
+<h2>List of Prerequisites</h2>
+
 
 - Create an Azure Virtual Machine Windows 10, 4 vCPUs
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features
@@ -42,7 +39,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Continue Setting up osticket in the browser
 - Clean up
 
-<h2>Configuration Steps</h2>
+<h2>Installation Steps</h2>
 
 <p>
 <img src="https://i.imgur.com/VgAOIig.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
