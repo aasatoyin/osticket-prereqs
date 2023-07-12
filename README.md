@@ -19,6 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 
+- Create Vitutual Machine on Azure Portal
 - Connect to an Azure Virtual Machine Windows 10, 4 vCPUs
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features
 - Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
@@ -34,12 +35,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Enable other extensions in osticket page
 - Rename: ost-config.php
 - Assign Permissions: ost-config.php
-- Continue Setting up osTicket in the browser (click Continue)
+- Continue Setting up osTicket in the browser 
 - Download and install HeidiSQL
 - Continue Setting up osticket in the browser
 - Clean up
 
 <h2>Installation Steps</h2>
+
+<p>
+<img src="https://i.imgur.com/5SLWE7H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+VM created on Azure Portal -> login with Azure subcription details -> create resouce group -> create virtual machine
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/VgAOIig.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -73,7 +82,7 @@ Control panel -> program and features -> turn window features on and off -> chec
 <img src="https://i.imgur.com/1hFt9KB.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-IIS is a Web server that OSticket runs on, therefore, we checked if the webserver is up and running by typing. 127.0.0.1 into web browser to load default IIS server shown the image above. 127.0.0.1 is a local host of the loopback trying to load a webpage that is running off itself.
+IIS is a Web server that OSticket runs on, therefore, we checked if the webserver is up and running by typing. 127.0.0.1 into web browser to load default IIS server shown in the image above. 127.0.0.1 is a local host of the loopback trying to load a webpage that is running off itself.
 </p>
 <br />
 
@@ -129,7 +138,7 @@ Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) as follows: Agree>Nex
 <img src="https://i.imgur.com/x86p96x.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
-Open IIS as an Admin as folows: type internet information service on the start button > right click on ISS and click run as admin (image shown above).
+Open IIS as an Admin as follows: type internet information services on the start button > right click on ISS and click run as admin (image shown above).
 </p>
 <br />
 
@@ -137,7 +146,7 @@ Open IIS as an Admin as folows: type internet information service on the start b
 <img src="https://i.imgur.com/RlaH9lb.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
-Register PHP from within IIS as foolows: double click PHP Manager>register new PHP version>browser>This PC>window (c:)\PHP folder>php.cgi>open>okay and then restart the server on the top right of the page or Reload IIS (Open IIS, Stop and Start the server).
+Register PHP from within IIS as follows: double click PHP Manager>register new PHP version>browser>This PC>window (c:)\PHP folder -> php.cgi -> open -> and then restart the server on the top right of the page or Reload IIS (Open IIS, Stop and Start the server).
 </p>
 <br />
 
@@ -159,7 +168,7 @@ Install osTicket v1.15.8
 </p>
 <p>
 	Open IIS ->Go to sites -> Default -> osTicket
-      -	On the top right of the page, click “Browse *:80” and this will display the above image
+      -	On the top right of the page, click “Browse *:80” and this will display the above image.
 	Note that some extensions are not enabled as shown in the osticket page.
 </p>
 <br />
@@ -184,7 +193,7 @@ Do the following to eneble the disabled extension in osticket
 <img src="https://i.imgur.com/DSw1tBr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
-	Refresh the osTicket site in your browser and NEVER click continue, observe the changes. This should now look like the image shown above.
+	Refresh the osTicket webpage in your browser and NEVER click continue, observe the changes. This should now look like the image shown above.
 </p>
 <br />
 
